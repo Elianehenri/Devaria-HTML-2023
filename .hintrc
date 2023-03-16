@@ -15,6 +15,13 @@
       {
         "frame-title": "off"
       }
-    ]
+    ],
+    "axe/time-and-media": [
+      "default",
+      {
+        "meta-refresh": "off"
+      }
+    ],
+    "meta-viewport": "off"
   }
 }
