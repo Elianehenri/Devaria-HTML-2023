@@ -7,14 +7,20 @@
         <meta name="keywords" content="devaria, programação, aulas ao vivo, formação de graça"/>
         <meta name="author" content="Eliane Henriqueta" />
         <meta http-equiv="refresh" content="300"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="public/css/devaria.css" />
+        <link rel="stylesheet" href="public/css/footer.css" />
+        <link rel="stylesheet" href="public/css/header.css" />
+        <link rel="stylesheet" href="public/css/index.css" />
         <title>Olá Mundo!</title>
     </head>
 
 <body>
     <header>
-        <h1>Olá Mundo!</h1>
-        <h2> Essa pagina é da aula de HTML do curso da Devaria 2023.</h2>
-        <nav>
+        <a href="index.html" class="link-logo">
+            <img src="public/imagens/logo-devaria.svg" alt="Logo devaria" />
+        </a>
+        <nav class="menu">
             <ul>
                 <li><a href="Index.html">Home</a> </li>
                 <li><a href="Professores.html"> Professores</a></li>
@@ -23,31 +29,33 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <section>
+    <main class="text-center">
+        <h2 class="title"> Essa pagina é da aula de HTML do curso da Devaria 2023.</h2>
+        <section class="cover-container">
             <figure>
-                <img src="imagens/olamundo.png" width="500" alt="Devaria - Olá Mundo!"/> 
+                <img src="public/imagens/olamundo.png"  alt="Devaria - Olá Mundo!"/> 
                 <figcaption>Devaria - Olá Mundo!</figcaption>
             </figure>
         </section>
        
-        <section>
+        <section class="section-video">
             <div>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/0Yb-U1zCWbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </section>
-        <!--**criar pasta video e colocar o video***<video width="320" height="240" controls="controls">
-	    <source src="Videos/anuncio.mp4" type="video/mp4">
-        </video>-->
+        <!-- <video width="320" height="240" controls="controls">
+                <source src="public/videos/anuncio.mp4" type="video/mp4">
+            </video>-->
 
-        <section>
-            <h3>Para os <abbr title="Developers">DEVs</abbr> saberem, a Devaria usa <abbr title="Microsoft">MS</abbr> Azure</h3>
-            <blockquote cite="https://azure.microsoft.com/pt-br/solutions/">
+        <section class="section-azure">
+            <h3 class="title">Para os <abbr title="Developers">DEVs</abbr> saberem, a Devaria usa <abbr title="Microsoft">MS</abbr> Azure</h3>
+            <blockquote class="text-justify" cite="https://azure.microsoft.com/pt-br/solutions/">
                 Resolva os problemas de negócios com combinações comprovadamente eficientes de 
                 produtos e serviços do Azure.
             </blockquote>
         </section>
     </main>
+    
     <footer>
         <section>
             <span>contato@devaria.com.br</span> <br />
